@@ -1,19 +1,20 @@
-import Header from "./components/header/header";
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/home/home";
-import { About, Contact, Order } from "./pages";
+import Home from "./pages/Home";
+import Store from "./pages/Store";
+import About from "./pages/About";
+import Navbar from "./components/Navbar";
+import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 
 const App = () => {
   return (
-    <>
-      <Header />
+    <ShoppingCartProvider>
+      <Navbar />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/store" element={<Store />} />
         <Route path="/about" element={<About />} />
-        <Route path="/order" element={<Order />} />
-        <Route path="/contact" element={<Contact />} />
       </Routes>
-    </>
+    </ShoppingCartProvider>
   );
 };
 

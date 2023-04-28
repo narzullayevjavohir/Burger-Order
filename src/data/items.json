@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Burger",
+    "price": 4,
+    "imgUrl": "/public/imgs/burger.png"
+  },
+  {
+    "id": 2,
+    "name": "Hotdog",
+    "price": 2.5,
+    "imgUrl": "/public/imgs/hotdog.png"
+  },
+  {
+    "id": 3,
+    "name": "Lavash",
+    "price": 11,
+    "imgUrl": "/public/imgs/lavash.png"
+  },
+  {
+    "id": 4,
+    "name": "Pizza",
+    "price": 20,
+    "imgUrl": "/public/imgs/pizza.png"
+  },
+  {
+    "id": 5,
+    "name": "Chicken",
+    "price": 35,
+    "imgUrl": "/public/imgs/chicken.png"
+  }
+]
